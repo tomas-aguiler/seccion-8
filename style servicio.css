@@ -1,0 +1,41 @@
+.TITULO {
+    font-size: 46px;
+    text-align: center;
+}
+.subtitulo {
+    font-size: 35px;
+    text-align: center;
+}
+.servicio1 {
+    font-size: 25px;
+    
+}
+.servicio2 {
+    font-size: 25px;
+   
+    
+}
+.servicio3 {
+    font-size: 25px;
+   
+    
+}
+
+.servicios {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    
+}
+.servicio1{
+    flex: 1;
+    padding: 10px;
+}
+.servicio2{
+    flex: 1;
+    padding: 10px;
+}
+.servicio3{
+    flex: 1;
+    padding: 10px;
+}

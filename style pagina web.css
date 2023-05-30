@@ -1,0 +1,41 @@
+h1{
+    color: red;
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial;
+  }
+  .container{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  p{
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+    font-family: Georgia;
+  }
+  body{
+    background-color: aqua;
+    color: blueviolet;
+  }
+  #mi-id{
+     margin: 300px
+  }
+  .mi-clase{
+    font-family: helvetica;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .column{
+    flex: 1;
+    padding: 10px;
+  }
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+}
